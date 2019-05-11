@@ -47,7 +47,7 @@ a.nav-link {
 }
 
 .boxs {
-    height: 130px;
+    height: 147px;
     width: 205px;
     
     text-align: center;
@@ -105,4 +105,36 @@ i.fas.fa-chevron-circle-left {
     transform: rotate(224deg);
     border: 2px solid;
     z-index: -1;
+}
+
+p.bstext {
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+p.nxt {
+    text-align: initial;
+    margin-left: 10px;
+}
+
+
+
+.black a.bxbtn {
+    background: white;
+    font-size: 11px;
+    color: black;
+    padding: 4px 14px;
+    border-radius: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.yellow a.bxbtn {
+    background: black;
+    font-size: 11px;
+    color: white;
+    padding: 4px 14px;
+    border-radius: 18px;
+    text-decoration: none;
+    cursor: pointer;
 }
