@@ -1,0 +1,108 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  ul.navbar-nav.edited-nav {
+    margin-left: 12px ;
+}
+
+.navbar-toggler-icon {
+ 
+    background: red !important;
+}
+
+a.nav-link {
+    color: white;
+}
+
+@media (min-width: 992px)
+{
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 4.5rem !important;
+    padding-left: 0rem !important;
+}
+}
+
+.containers {
+    display: flex;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 0px !important;
+    top: calc(50% - 120px) !important;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.boxs {
+    height: 130px;
+    width: 205px;
+    
+    text-align: center;
+}
+
+.yellow {
+    background: #fff905;
+    color: black;
+}
+.black {
+    color: white;
+
+    background: black;
+}
+
+.next-prev {
+    position: absolute;
+    bottom: 37px;
+    right: 71px;
+}
+
+i.fas.fa-chevron-circle-right {
+    padding: 13px;
+    color: rgba(0, 0, 0, 0.438);
+    font-size: 31px;
+}
+i.fas.fa-chevron-circle-left {
+    padding: 13px;
+    color: white;
+    font-size: 31px;
+}
+
+.yellow.active::before {
+    content: "";
+    height: 25px;
+    margin-top: -12px;
+    width: 25px;
+    background: rgb(255, 239, 8);
+    position: absolute;
+    transform: rotate(224deg);
+    border: 2px solid white;
+    z-index: -1;
+    /* left: 72px; */
+}
+
+
+.black.active::before {
+    content: "";
+    /* left: 72px; */
+    height: 25px;
+    margin-top: -12px;
+    width: 25px;
+    background: black;
+    position: absolute;
+    transform: rotate(224deg);
+    border: 2px solid;
+    z-index: -1;
+}
