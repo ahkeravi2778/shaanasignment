@@ -37,7 +37,7 @@ a.nav-link {
     position: absolute;
     right: 15%;
     bottom: 0px !important;
-    top: calc(50% - 120px) !important;
+    top: calc(38% - 120px) !important;
     left: 15%;
     z-index: 10;
     padding-top: 20px;
@@ -80,7 +80,7 @@ i.fas.fa-chevron-circle-left {
     font-size: 31px;
 }
 
-.yellow.active::before {
+.active.yellow::before {
     content: "";
     height: 25px;
     margin-top: -12px;
@@ -94,7 +94,7 @@ i.fas.fa-chevron-circle-left {
 }
 
 
-.black.active::before {
+.active.black::before {
     content: "";
     /* left: 72px; */
     height: 25px;
@@ -137,4 +137,69 @@ p.nxt {
     border-radius: 18px;
     text-decoration: none;
     cursor: pointer;
+}
+a.getstock {
+    padding: 5px 37px;
+    display: inline-table;
+    background: #5d51515c;
+    border-radius: 32px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 38px;
+}
+
+
+.display-4 {
+    font-size: 3.5rem !important;
+    font-weight: 600 !important;
+    line-height: 1.2;
+    text-align: left;
+
+}
+
+.lead {
+    font-size: 1.75rem;
+    font-weight: 400 !important; 
+    text-align: left;
+}
+
+a.maingetstart {
+    text-decoration: none;
+    background: white;
+    padding: 5px 34px;
+    font-size: 25px;
+    color: black;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.col-indi li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+.col-indi {
+    position: absolute;
+    top: calc( 50% - 99px);
+}
+
+.col-indi .active {
+    opacity: 1;
 }
